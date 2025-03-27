@@ -1,6 +1,6 @@
 #List------> Mutable (can be change)
 
-list= ["Apple", "Mango", "Guvava", "PineApple", "Kiwi"]
+#list= ["Apple", "Mango", "Guvava", "PineApple", "Kiwi"]
 print(list)
 print(list[1])
 try:
@@ -51,3 +51,39 @@ empty_list.append("Noida")
 print(empty_list)
 #print(dir(list))
 
+Name3= (10, 20, 30, 50)
+print(type(Name3))
+print(Name3)
+
+New= list(Name3)
+
+print(type(New))
+print(New)
+
+List5 = [1,2,3,4,5]
+List6= [6,4,5,8]
+#List5.clear()
+print(List5)
+
+print(2 in List5)
+print(6 in List5)
+print(6 not in List5)
+
+List5.sort(reverse=True)
+print(List5)
+
+Text1= "My name is Arvind"
+words=Text1.split()  #whenever we use SPILT fun will return LIST always.
+print(Text1)
+print(type(words))
+print(words)
+
+Number1= [1,2,3,2,2,4,5,1,5]
+print(Number1.count(2))
+print(Number1.count(5))
+print(Number1.count(1))
+
+Cube_methods= [x **3 for x in range (1,6)]
+Cube_methods1= [x **2 for x in range (1,6)]
+print(Cube_methods)
+print(Cube_methods1)
