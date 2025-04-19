@@ -47,3 +47,9 @@ print(Text.swapcase())
 print(Text.strip())
 print(Text.strip())
 print(Text.split())
+
+
+
+Name= "Ravi Malik"
+byte_date= Name.encode()
+print(byte_date)
