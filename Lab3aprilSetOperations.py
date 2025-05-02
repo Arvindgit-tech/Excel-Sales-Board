@@ -8,7 +8,7 @@ print(a&b)  #Intersection
 print(a-b) 
 print(b-a)
 
-print(a^b)
+print(a^b) #symmetric difference
 
 FS = frozenset ([10,20,30])
 print(FS)

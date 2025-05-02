@@ -18,7 +18,7 @@ print(list1[3][1]) #in list we have to use indexing sepratly if we have list ins
 print(list1[0:3])
 
 mylist= ["Arvind", [89, 60, [70,80]],10,20,30]
-#print(mylist[3][2][0]) #there is 2 element in this list so cant print 3.
+print(mylist[1][2][0]) #there is 2 element in this list so cant print 3.
 
 mylist[1][2].remove(70)   #first changes in the list then print
 print(mylist)

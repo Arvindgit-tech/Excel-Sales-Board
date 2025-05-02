@@ -1,9 +1,9 @@
-Text= "Hello" \
-" World"
+Text= "hello" \
+" WORLD"
 
-print(Text.capitalize())
+print(Text.capitalize())  #convert first letter into uper
 print(Text.title())
-print(Text.casefold())
+print(Text.casefold()) #converting into lower all letter (Used for internationalisation)
 
 Text2 = "RAVI MALIK"
 
@@ -44,12 +44,14 @@ print(dir(str))
 
 print(Text2.swapcase())
 print(Text.swapcase())
-print(Text.strip())
+print(Text.strip())   #removing space before and LAst
 print(Text.strip())
 print(Text.split())
 
 
 
-Name= "Ravi Malik"
+Name= "_Ravi Malik_"
+print(Name.strip("_"))
+
 byte_date= Name.encode()
 print(byte_date)

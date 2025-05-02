@@ -1,6 +1,6 @@
 dict0={"Arvind":7906}
 dict1={"Ravi":8439}
-print(dict)
+print(dict0)
 print(type(dict))
 
 empty_dict={}
@@ -22,10 +22,10 @@ print(dict2.items())
 print(dict2.values())
 print(dict2.keys())
 
-Squre={x:x**2 for x in range (1,11)}
-print(Squre)
+Square={x:x**2 for x in range (1,11)}
+print(Square)
 
 #for keys in Squre:   print(keys)
 
-for values in Squre:
-    print(values)
+for Square in Square.values():
+    print(Square)
